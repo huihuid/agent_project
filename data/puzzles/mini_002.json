@@ -1,0 +1,16 @@
+{
+  "id": "mini_002",
+  "grid": [
+    "...",
+    "...",
+    "..."
+  ],
+  "slots": [
+    {"id": "A1", "direction": "across", "row": 0, "col": 0, "length": 3, "clue": "Canine pet"},
+    {"id": "A2", "direction": "across", "row": 1, "col": 0, "length": 3, "clue": "Metal-bearing rock"},
+    {"id": "A3", "direction": "across", "row": 2, "col": 0, "length": 3, "clue": "Obtain"},
+    {"id": "D1", "direction": "down", "row": 0, "col": 0, "length": 3, "clue": "Canine pet"},
+    {"id": "D2", "direction": "down", "row": 0, "col": 1, "length": 3, "clue": "Metal-bearing rock"},
+    {"id": "D3", "direction": "down", "row": 0, "col": 2, "length": 3, "clue": "Obtain"}
+  ]
+}

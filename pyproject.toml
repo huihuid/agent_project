@@ -1,0 +1,17 @@
+[project]
+name = "crossword-agent"
+version = "0.1.0"
+description = "An agentic crossword solver with tool traces, constraints, and evaluation."
+requires-python = ">=3.10"
+dependencies = [
+  "openai>=1.40.0",
+  "pydantic>=2.7.0",
+  "pyyaml>=6.0.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

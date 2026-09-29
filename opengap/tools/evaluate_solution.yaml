@@ -1,0 +1,9 @@
+name: evaluate_solution
+description: Compare predicted answers against gold answers.
+input_schema:
+  predicted: object
+  gold: object
+output_schema:
+  cell_accuracy: number
+  word_accuracy: number
+  full_puzzle_solved: boolean

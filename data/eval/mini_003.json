@@ -1,0 +1,23 @@
+{
+  "id": "mini_003",
+  "grid": [
+    "....",
+    "....",
+    "....",
+    "...."
+  ],
+  "slots": [
+    {"id": "A1", "direction": "across", "row": 0, "col": 0, "length": 4, "clue": "Object thrown or kicked in games"},
+    {"id": "A2", "direction": "across", "row": 1, "col": 0, "length": 4, "clue": "Region or space"},
+    {"id": "A3", "direction": "across", "row": 2, "col": 0, "length": 4, "clue": "Guide or be in front"},
+    {"id": "A4", "direction": "across", "row": 3, "col": 0, "length": 4, "clue": "Polite term for a woman"},
+    {"id": "D1", "direction": "down", "row": 0, "col": 0, "length": 4, "clue": "Object thrown or kicked in games"},
+    {"id": "D2", "direction": "down", "row": 0, "col": 1, "length": 4, "clue": "Region or space"},
+    {"id": "D3", "direction": "down", "row": 0, "col": 2, "length": 4, "clue": "Guide or be in front"},
+    {"id": "D4", "direction": "down", "row": 0, "col": 3, "length": 4, "clue": "Polite term for a woman"}
+  ],
+  "metadata": {
+    "difficulty": "easy",
+    "note": "A 4x4 word-square puzzle with common literal clues."
+  }
+}

@@ -1,0 +1,10 @@
+model: gpt-4.1-mini
+mock: true
+max_rounds: 3
+beam_size: 50
+candidates_per_clue: 8
+temperature: 0.2
+max_llm_calls: 80
+cost_budget_usd: 0.5
+commit_confidence_threshold: 0.55
+trace_dir: runs

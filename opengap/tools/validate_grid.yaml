@@ -1,0 +1,7 @@
+name: validate_grid
+description: Validate answer length, letter format, and crossing consistency.
+input_schema:
+  puzzle: object
+  assignments: object
+output_schema:
+  issues: array

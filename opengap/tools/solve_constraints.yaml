@@ -1,0 +1,10 @@
+name: solve_constraints
+description: Search over clue candidates and return a crossing-consistent assignment.
+input_schema:
+  puzzle: object
+  candidates: object
+output_schema:
+  assignments: object
+  score: number
+  complete: boolean
+  conflicts: array

@@ -1,0 +1,16 @@
+{
+  "id": "mini_001",
+  "grid": [
+    "...",
+    "...",
+    "..."
+  ],
+  "slots": [
+    {"id": "A1", "direction": "across", "row": 0, "col": 0, "length": 3, "clue": "Feline pet"},
+    {"id": "A2", "direction": "across", "row": 1, "col": 0, "length": 3, "clue": "Present plural of be"},
+    {"id": "A3", "direction": "across", "row": 2, "col": 0, "length": 3, "clue": "Number after nine"},
+    {"id": "D1", "direction": "down", "row": 0, "col": 0, "length": 3, "clue": "Feline pet"},
+    {"id": "D2", "direction": "down", "row": 0, "col": 1, "length": 3, "clue": "Present plural of be"},
+    {"id": "D3", "direction": "down", "row": 0, "col": 2, "length": 3, "clue": "Number after nine"}
+  ]
+}

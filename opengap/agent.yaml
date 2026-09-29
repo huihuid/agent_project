@@ -1,0 +1,21 @@
+name: crossword-agent
+version: 0.1.0
+role: >
+  Solves crossword puzzles through clue reasoning, constraint validation,
+  iterative repair, and auditable traces.
+runtime:
+  entrypoint: python scripts/solve.py
+skills:
+  - skills/crossword-solving.md
+  - skills/clue-reasoning.md
+  - skills/conflict-repair.md
+tools:
+  - tools/solve_clue.yaml
+  - tools/solve_constraints.yaml
+  - tools/validate_grid.yaml
+  - tools/evaluate_solution.yaml
+knowledge:
+  - knowledge/crossword_conventions.md
+  - knowledge/evaluation_policy.md
+memory:
+  - memory/run_notes.md

@@ -1,0 +1,11 @@
+name: solve_clue
+description: Generate ranked answer candidates for one crossword clue.
+input_schema:
+  clue: string
+  length: integer
+  pattern: string
+output_schema:
+  candidates:
+    - answer: string
+      confidence: number
+      rationale: string

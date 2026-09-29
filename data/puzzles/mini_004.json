@@ -1,0 +1,22 @@
+{
+  "id": "mini_004",
+  "grid": [
+    ".....",
+    ".....",
+    ".....",
+    ".....",
+    "....."
+  ],
+  "slots": [
+    {"id": "A1", "direction": "across", "row": 0, "col": 0, "length": 5, "clue": "Organ that pumps blood"},
+    {"id": "A2", "direction": "across", "row": 1, "col": 0, "length": 5, "clue": "Glowing piece of coal"},
+    {"id": "A3", "direction": "across", "row": 2, "col": 0, "length": 5, "clue": "Mistreat"},
+    {"id": "A4", "direction": "across", "row": 3, "col": 0, "length": 5, "clue": "Sticky tree substance"},
+    {"id": "A5", "direction": "across", "row": 4, "col": 0, "length": 5, "clue": "General direction"},
+    {"id": "D1", "direction": "down", "row": 0, "col": 0, "length": 5, "clue": "Organ that pumps blood"},
+    {"id": "D2", "direction": "down", "row": 0, "col": 1, "length": 5, "clue": "Glowing piece of coal"},
+    {"id": "D3", "direction": "down", "row": 0, "col": 2, "length": 5, "clue": "Mistreat"},
+    {"id": "D4", "direction": "down", "row": 0, "col": 3, "length": 5, "clue": "Sticky tree substance"},
+    {"id": "D5", "direction": "down", "row": 0, "col": 4, "length": 5, "clue": "General direction"}
+  ]
+}
