@@ -3,6 +3,8 @@ version: 0.1.0
 role: >
   Solves crossword puzzles through clue reasoning, constraint validation,
   iterative repair, and auditable traces.
+soul: soul.md
+instructions: instructions.md
 runtime:
   entrypoint: python scripts/solve.py
 skills:

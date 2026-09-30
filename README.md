@@ -130,6 +130,9 @@ For this take-home, I kept both layers:
 - `opengap/` documents the agent contract.
 - `src/crossword_agent/` implements the working runtime.
 
+Inside `opengap/`, `agent.yaml` is the manifest, `soul.md` captures the agent's
+identity and principles, and `instructions.md` captures the operating policy.
+
 ## Trade-offs
 
 - The demo dataset is intentionally small and deterministic. This makes the agent architecture easy to inspect, but it is not a benchmark of real crossword difficulty.
