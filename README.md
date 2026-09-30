@@ -115,6 +115,21 @@ python scripts/analyze_traces.py runs
 The analyzer reports prompt, policy, and evaluation-gating recommendations from
 the run traces.
 
+## OpenGAP Note
+
+The `opengap/` directory is a portable agent specification layer, not a runtime
+dependency. The Python CLI runs without it.
+
+In an enterprise environment with an existing agent runtime, the same agent could
+be registered through an OpenGAP-style manifest: role, skills, tool schemas,
+policies, permissions, knowledge, and memory conventions live in the spec, while
+the runtime provides orchestration, tool execution, auth, logging, and deployment.
+
+For this take-home, I kept both layers:
+
+- `opengap/` documents the agent contract.
+- `src/crossword_agent/` implements the working runtime.
+
 ## Trade-offs
 
 - The demo dataset is intentionally small and deterministic. This makes the agent architecture easy to inspect, but it is not a benchmark of real crossword difficulty.
