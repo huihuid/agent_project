@@ -130,8 +130,10 @@ For this take-home, I kept both layers:
 - `opengap/` documents the agent contract.
 - `src/crossword_agent/` implements the working runtime.
 
-Inside `opengap/`, `agent.yaml` is the manifest, `soul.md` captures the agent's
-identity and principles, and `instructions.md` captures the operating policy.
+Inside `opengap/`, `agent.yaml` is the manifest, `SOUL.md` captures the agent's
+identity and principles, `RULES.md` captures operating policy, tools are YAML
+definitions under `tools/`, and skills are `skills/<name>/SKILL.md` files with
+YAML frontmatter plus Markdown instructions.
 
 ## Trade-offs
 

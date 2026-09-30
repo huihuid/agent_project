@@ -1,0 +1,7 @@
+knowledge:
+  - id: crossword_conventions
+    path: crossword_conventions.md
+    description: Crossword answer normalization and clue conventions.
+  - id: evaluation_policy
+    path: evaluation_policy.md
+    description: Metrics and baseline expectations for evaluation.
